@@ -70,17 +70,3 @@ nav ul ul li {
     display: list-item;
     position: relative;
 }
-
-nav ul ul ul li {
-    position: relative;
-    top: -60px;
-    left: 170px;
-}
-
-li > a:after {
-    content: "=>";
-}
-
-li > a:only-child:after {
-    content: "";
-}

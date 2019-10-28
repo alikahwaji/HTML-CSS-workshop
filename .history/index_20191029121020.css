@@ -63,24 +63,3 @@ nav ul ul {
 nav ul li:hover > ul{
     display: inherit;
 }
-
-nav ul ul li {
-    width: 170px;
-    float: none;
-    display: list-item;
-    position: relative;
-}
-
-nav ul ul ul li {
-    position: relative;
-    top: -60px;
-    left: 170px;
-}
-
-li > a:after {
-    content: "=>";
-}
-
-li > a:only-child:after {
-    content: "";
-}

@@ -76,11 +76,3 @@ nav ul ul ul li {
     top: -60px;
     left: 170px;
 }
-
-li > a:after {
-    content: "=>";
-}
-
-li > a:only-child:after {
-    content: "";
-}

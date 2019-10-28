@@ -78,7 +78,7 @@ nav ul ul ul li {
 }
 
 li > a:after {
-    content: "=>";
+    content: ">";
 }
 
 li > a:only-child:after {
